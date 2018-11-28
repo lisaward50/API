@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Nav from '../Nav'
+import Nav from '../Nav';
+import Weather from '../Weather';
 import './style.css';
 
 class App extends Component {
@@ -7,7 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <div className="mt-5">I'm a new app</div>
+        <div className="buffer"></div>
+        <Weather />
       </div>
     );
   }

@@ -4,7 +4,7 @@ class Nav extends Component {
   render() {
     return (
       <nav id="navbar" className="navbar fixed-top navbar-expand-md navbar-dark py-0">
-        <a className="navbar-brand" href="#">INVEST</a>
+        <a className="navbar-brand" href="#">WEATHER</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

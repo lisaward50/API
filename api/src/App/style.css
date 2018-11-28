@@ -22,3 +22,7 @@ body {
   font-weight: 150;
   color: #12AFA9;
 }
+
+.buffer {
+  height: 100px;
+}
