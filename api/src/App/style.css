@@ -1,0 +1,24 @@
+body {
+  background: #8DE5E2;
+  color: #12AFA9;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 150;
+  color: #12AFA9;
+}
+
+#navbar .nav-link {
+  font-size: 1.25rem;
+  font-weight: 150;
+  color: white;
+}
+
+#navbar .nav-link:hover {
+  font-size: 1.25rem;
+  font-weight: 150;
+  color: #12AFA9;
+}
