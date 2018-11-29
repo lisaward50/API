@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../Nav';
-import Weather from '../Weather';
+import Convert from '../Convert';
 import './style.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <div className="buffer"></div>
-        <Weather />
+        <Convert />
       </div>
     );
   }

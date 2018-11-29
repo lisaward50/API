@@ -31,15 +31,20 @@ class Weather extends Component {
   render(){
 
     const { weather } = this.state;
-    //console.log(weather);
-    const weatherInfo = weather.weather;
-    console.log(weatherInfo);
+    const { name, base, cod, main } = weather;
+    //const { temp } = main.dataValues;
 
-    //const weatherArr = weatherInfo.map((w,i) => {
+    console.log(main);
+    //const weatherInfo = weather.weather;
+    //const windInfo = weather.wind;
+    //console.log(windInfo);
+
+    //const mainArr = main.map((m,i) => {
       //return (
         //<div key={i}>
-        //<h3>{w.dataValues}</h3>
-        //<h3>{w.dataValues.id}</h3>
+        //<h3>{w.dataValues.speed}</h3>
+        //<h3>{w.dataValues.deg}</h3>
+        //<h3>{w.dataValues.gust}</h3>
         //<br/>
         //<br/>
         //</div>
@@ -48,8 +53,9 @@ class Weather extends Component {
 
     return(
       <div className="Weather">
-        <h4>{ weather.name }</h4>
-        <h4>{ weather.visibility }</h4>
+        <h4>{ name }</h4>
+        <h4>{ base }</h4>
+        <h4>{ cod }</h4>
       </div>
     )
   }
