@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../Nav';
-import Convert from '../Convert';
+import Currencies from '../Currencies';
 import './style.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <div className="buffer"></div>
-        <Convert />
+        <Currencies />
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class Convert extends Component {
+class Currencies extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -82,12 +82,12 @@ class Convert extends Component {
           <div className="col-sm-6 col-md-4">
              <p><span className="text-white">AUD</span> &nbsp;
              {(rateAUD * valueEntered).toFixed(2)}&nbsp; &nbsp; &nbsp;</p>
-           </div>
+          </div>
          </div>
-       </div>
-     </div>
+        </div>
+      </div>
       )
   }
 }
 
-export default Convert;
+export default Currencies;
