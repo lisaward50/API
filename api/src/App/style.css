@@ -26,3 +26,8 @@ body {
 .buffer {
   height: 100px;
 }
+
+.content {
+  padding-top: 25vh;
+  text-align: center;
+}

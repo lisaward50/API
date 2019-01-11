@@ -9,7 +9,9 @@ class App extends Component {
       <div className="App">
         <Nav />
         <div className="buffer"></div>
-        <Currencies />
+        <div className="content">
+          <Currencies />
+        </div>
       </div>
     );
   }
